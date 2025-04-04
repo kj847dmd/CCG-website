@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chicago Cyber Group</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="flex items-center justify-center min-h-screen bg-gray-900 text-white text-3xl font-bold">
-  Hello World from Conrad's MSP 👋
+<body class="bg-black text-white font-sans">
+  <!-- Navbar -->
+  <nav class="bg-black border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <span class="text-2xl font-bold text-orange-500">Chicago Cyber Group</span>
+      <ul class="flex space-x-6 text-gray-300">
+        <li><a href="#about" class="hover:text-orange-400">About</a></li>
+        <li><a href="#services" class="hover:text-orange-400">Services</a></li>
+        <li><a href="#portfolio" class="hover:text-orange-400">Portfolio</a></li>
+        <li><a href="#contact" class="hover:text-orange-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center text-center bg-black">
+    <div>
+      <h1 class="text-4xl md:text-6xl font-bold mb-6">Secure. Support. Simplify.</h1>
+      <p class="text-xl text-gray-400 mb-8 max-w-xl mx-auto">
+        IT solutions for growing businesses in the Chicago area.
+      </p>
+      <a href="#contact" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg text-lg font-semibold">
+        Request a Consultation
+      </a>
+    </div>
+  </section>
+
+  <!-- Placeholder Sections -->
+  <section id="about" class="py-20 px-6 text-center border-t border-gray-800">
+    <h2 class="text-3xl font-bold mb-4 text-orange-400">About Us</h2>
+    <p class="text-gray-400 max-w-3xl mx-auto">We're a Chicago-based Managed Service Provider helping small and mid-sized businesses stay secure, efficient, and scalable.</p>
+  </section>
+
+  <section id="services" class="py-20 px-6 text-center border-t border-gray-800">
+    <h2 class="text-3xl font-bold mb-4 text-orange-400">Our Services</h2>
+    <p class="text-gray-400 max-w-3xl mx-auto">Network management, cloud solutions, cybersecurity, backup & recovery, and IT consulting tailored to your business needs.</p>
+  </section>
+
+  <section id="portfolio" class="py-20 px-6 text-center border-t border-gray-800">
+    <h2 class="text-3xl font-bold mb-4 text-orange-400">Portfolio</h2>
+    <p class="text-gray-400 max-w-3xl mx-auto">Check back soon — we’ll be showcasing recent projects and happy clients.</p>
+  </section>
+
+  <section id="contact" class="py-20 px-6 text-center border-t border-gray-800">
+    <h2 class="text-3xl font-bold mb-4 text-orange-400">Contact Us</h2>
+    <p class="text-gray-400 mb-6 max-w-2xl mx-auto">Ready to level up your IT? Drop us a line below.</p>
+    <form class="max-w-md mx-auto">
+      <input type="text" placeholder="Your Name" class="w-full mb-4 p-3 rounded bg-gray-800 text-white placeholder-gray-400">
+      <input type="email" placeholder="Your Email" class="w-full mb-4 p-3 rounded bg-gray-800 text-white placeholder-gray-400">
+      <textarea placeholder="Your Message" rows="5" class="w-full mb-4 p-3 rounded bg-gray-800 text-white placeholder-gray-400"></textarea>
+      <button type="submit" class="bg-orange-500 hover:bg-orange-600 w-full py-3 rounded text-white font-semibold">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-600 border-t border-gray-800">
+    © 2025 Chicago Cyber Group. All rights reserved.
+  </footer>
 </body>
 </html>
